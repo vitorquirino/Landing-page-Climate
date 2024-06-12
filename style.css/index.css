@@ -56,5 +56,35 @@ section{
         color: #C2BFF4;    
         font-size: 1.4rem;
 }
+.temp{
+    margin: 6rem;
+
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+}
+.temp .number{
+    text-align: center;
+    font-weight: bold;
+    font-size: 8.8rem;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.temp .number .maxmin{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.temp .number .maxmin span{
+    color: #c2bff4;
+}
+.celsius{
+    font-size: 2.4rem;
+    color: #DAD8F7;
+    margin-top:1.5rem ;
+}
     
 
