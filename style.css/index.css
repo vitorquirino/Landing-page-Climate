@@ -17,6 +17,9 @@ main{
     display: grid;
     place-content: center;
 
+    padding: 6.4rem;
+
+    gap: 2.4rem;
 }
 
 section{
@@ -28,8 +31,8 @@ section{
 
 .temperature-now{
     background: url(../assets/Temperature\ Now\ \(1\).png) center/cover;
-    width: 48rem;
-    height: 48rem;
+
+
     border-radius: 1.2rem;
     position: relative;
     display: grid;
@@ -120,5 +123,51 @@ section{
     align-items: baseline;
     gap: 0.4rem;
 }
+.air-quality{
+    font-weight: 700;
+
+    text-align: center;
+    display: grid;
+}
+
+h2.title{
+    font-size: 1.8rem;
+    color: #DAD8F7;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+
+    margin-top:3.2rem;
+}
     
+.air-quality .good{
+    margin-top: 3.2rem;
+    font-size: 1.8rem;
+    color: #87ebcd;
+}
+.air-quality .p-numero{
+    margin-top: .4rem;
+    font-size: 4rem;
+    color:#E7E6FB;
+}
+.air-quality .info{
+    display: flex;
+    align-items: center;
+
+    margin-top: 3.2rem;
+    padding:0 1.6rem 1.6rem;
+}
+.air-quality .info>.number{
+    flex: 1;
+}
+.air-quality .info  p{
+    font-size: 1.4rem;
+    color: #87ebcd;
+}
+.air-quality .info small{
+    font-size: 1.2rem;
+    color: #e7e6fb;
+}
 
