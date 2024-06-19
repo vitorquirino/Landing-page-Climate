@@ -171,3 +171,16 @@ h2.title{
     color: #e7e6fb;
 }
 
+.sun-chart-wrapper{
+    margin-top: 4rem;
+    height: 11rem;
+    position: relative;
+}
+
+.sun-chart{
+    margin: auto;
+    width: 21.6rem;
+    height: 21.6rem;
+    border: 1px solid black;
+}
+
