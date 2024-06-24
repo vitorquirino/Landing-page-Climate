@@ -173,14 +173,32 @@ h2.title{
 
 .sun-chart-wrapper{
     margin-top: 4rem;
-    height: 11rem;
+    height: 15rem;
     position: relative;
 }
 
 .sun-chart{
+    --pos-x:50;
     margin: auto;
-    width: 21.6rem;
-    height: 21.6rem;
-    border: 1px solid black;
+    width: 28.6rem;
+    height: 28.6rem;
+
+
+    position: relative;
 }
+.sun-chart::before{
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    background: #f6c833;
+    border-radius:50%;
+
+    top: 50%;
+    left: 50%;
+    margin: -0.6rem;
+
+    transform: rotate(calc(1deg * ( ( (100 - var(--pos-x) ) /-100) *180))) translate(14.3rem);
+}
+
 
