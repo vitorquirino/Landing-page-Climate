@@ -201,4 +201,21 @@ h2.title{
     transform: rotate(calc(1deg * ( ( (100 - var(--pos-x) ) /-100) *180))) translate(14.3rem);
 }
 
+.chart::before{
+    content: "";
+    width: 26.6rem;
+    height: 26.6rem;
+
+    display: block;
+
+    border: 1px solid black;
+    border-radius:50%; 
+
+};
+
+.chart img{
+    position: absolute;
+    top: 0;
+};
+
 
